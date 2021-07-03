@@ -1,5 +1,5 @@
 module.exports = (api) => {
-  api.cache(true);
+  api.cache(true)
 
   const presets = [
     [
@@ -14,12 +14,12 @@ module.exports = (api) => {
     ],
     '@babel/preset-typescript',
     '@babel/preset-react',
-  ];
+  ]
 
-  const plugins = ['@babel/plugin-proposal-optional-chaining', 'babel-plugin-styled-components'];
+  const plugins = ['@babel/plugin-proposal-optional-chaining']
 
   return {
     presets,
     plugins,
-  };
-};
+  }
+}
