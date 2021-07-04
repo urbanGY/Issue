@@ -6,7 +6,6 @@ interface WordInterface {
 }
 
 const Word = observer(({ elem }: WordInterface) => {
-    console.log(elem.value)
     return <p>{elem.value}</p>
 })
 
