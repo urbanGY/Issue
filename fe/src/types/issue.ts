@@ -1,3 +1,9 @@
 export type Issue = Readonly<{
-    value: number
+    frequency: number
+    word: string
+}>
+
+export type wordStyle = Readonly<{
+    fontSize: string
+    color: string
 }>
