@@ -1,0 +1,19 @@
+---
+name: FE 작업 이슈 템플릿
+about: FE 작업에 대한 포멧
+title: "[개요] 세부 작업내역"
+labels: FE
+assignees: urbanGY
+
+---
+
+## 개요
+- 
+
+## 세부작업
+- 
+- 
+- 
+
+## 기타
+-
