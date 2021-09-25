@@ -8,6 +8,6 @@ const api = require("./api")
 router.use("/api", api.routes())
 
 app.use(router.routes()).use(router.allowedMethods())
-app.listen(4000, () => {
-  console.log("server listening to port 4000")
+app.listen(process.env.PORT || 4000, () => {
+  console.log(`server listening to port ${4000} or ${process.env.PORT}`)
 })
